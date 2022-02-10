@@ -56,7 +56,7 @@
                 if($sNumber < 17){
                   $result = ($sNumber - $fNumber) * 20000;
                 } else{
-                  $result = (17 - $fNumber) * 20000 + (17 - $sNumber) * 45000;
+                  $result = (17 - $fNumber) * 20000 + ($sNumber - 17) * 45000;
                 }
               } else{
                 $result = ($sNumber - $fNumber) * 45000;
